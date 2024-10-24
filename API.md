@@ -188,7 +188,7 @@ const startServer = async function () {
         await server.start();
         console.log('hapi days!');
     }
-    catch (err)
+    catch (err) {
         console.error(err);
         process.exit(1);
     }
